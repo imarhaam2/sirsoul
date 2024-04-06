@@ -20,7 +20,7 @@ module.exports = {
         .setDescription(`
             **Server Name:** ${server.name}
             **Server ID:** ${server.id}
-            **Owner:** ${owner.user.tag}
+            **Owners:** ${owner.user.tag}
             **Created At:** ${server.createdAt.toUTCString()}
             **Members:** ${server.memberCount}
             **Emojis:** ${emojis.size} emojis
