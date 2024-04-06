@@ -66,7 +66,7 @@ module.exports = {
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://dsc.gg/soulbound)
+      .setURL('https://dsc.gg/soulbound')
       .setStyle(ButtonStyle.Link);
 
 
