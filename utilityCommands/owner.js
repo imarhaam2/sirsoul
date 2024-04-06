@@ -9,7 +9,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle(' 🫅 Owner Info')
-            .setDescription(`__**About me**__:\n Heyo 👋🏻! This Server Was Founded On 4-6-2024 by clashified.exe ( <@1190652431592325221> ) and hiidarky ( <@1114946052613750794> ) \n ❤️ [SoulBoundMC](${youtubeLink})\n 💙 [Discord](${InstagramLink})`)
+            .setDescription(`__**About me**__:\n Heyo 👋🏻! This Server Was Founded On 4-6-2024 by clashified.exe ( <@1190652431592325221> ) and hidarkyy ( <@1114946052613750794> ) \n ❤️ [SoulBoundMC](${youtubeLink})\n 💙 [Discord](${InstagramLink})`)
             .setTimestamp();
 
 
