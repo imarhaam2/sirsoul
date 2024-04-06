@@ -128,10 +128,10 @@ client.on('messageCreate', (message) => {
 async function login() {
   try {
     await client.login(process.env.TOKEN);
-    console.log('\x1b[32m%s\x1b[0m', '|    🍔 Bot logged in successfully!');
-    console.log('\x1b[36m%s\x1b[0m', '|    🚀 Commands Loaded successfully!');
-    console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}`);
-    console.log('\x1b[36m%s\x1b[0m', `|    🏡 Bot is in ${client.guilds.cache.size} servers`);
+    console.log('\x1b[32m%s\x1b[0m', '|    🍔 Sir Souls Woke Up');
+    console.log('\x1b[36m%s\x1b[0m', '|    🚀 Sir Souls Got Freshed Up');
+    console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as Sir Souls!`);
+    console.log('\x1b[36m%s\x1b[0m', `|    🏡 Sir Souls is in SoulBoundMC`);
   } catch (error) {
     console.error('\x1b[31m%s\x1b[0m', '❌ Failed to log in:', error);
     console.log('\x1b[31m%s\x1b[0m', '❌ Client Not Login, Restarting Process...');
@@ -144,7 +144,7 @@ client.once('ready', () => {
   setTimeout(() => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
-      activities: [{ name: `Update Out V@1.5`, type: ActivityType.Watching }],
+      activities: [{ name: `The Souls!`, type: ActivityType.Watching }],
       status: 'idle',
     });
   }, 2000); 
